@@ -2,6 +2,7 @@
 #include <conio.h> //To get getch() function
 #include <algorithm>
 #include <windows.h> //for "sleep" and console clearing functionalities.
+#include <time.h>
 
 #include "mapdrawer.hpp" //draw_map function import. 
 
@@ -9,11 +10,11 @@ using namespace std;
 
 int main(){
     int field_width, field_height, game_speed;
-    bool alive;
 
-    
+    cout<<"--------------------------- KONRAD BLOCK PRESENTS -----------------------------"<<endl;
+    Sleep(2000);
     cout<<"-------------------------------------------------------------------------------"<<endl;
-    cout<<"------------------------ W E L C O M E  T O  S N A E K ------------------------"<<endl;
+    cout<<"------------------------ G A M E     O F     S N A E K ------------------------"<<endl;
     cout<<"-------------------------------------------------------------------------------"<<endl<<endl<<endl<<endl;
 
     cout<<"Choose your playing field size: WIDTH and HEIGHT (both accepted from 5 to 35)"<<endl;
@@ -46,26 +47,9 @@ int main(){
     cout<<"Use arrow keys to move your snake around."<<endl;
     Sleep(4000);
     system("cls");
-    draw_map(game_speed,field_width,field_height);
-    
+    draw_map(game_speed,field_width,field_height);  // FUNCTION CONTAINING ACTUAL GAME LOOP AND DRAWING FUNCTIONS.
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     return 0; 
 }
