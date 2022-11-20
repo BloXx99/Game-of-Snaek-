@@ -6,4 +6,4 @@ My personal take at well-known and beloved "Snake" game. Made as an coding excer
 Plain C++ 
 
 ## Platform
-Windows only application.
+Windows-only console application.
