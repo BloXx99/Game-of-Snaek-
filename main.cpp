@@ -22,15 +22,18 @@ int main(){
     cin>>field_width;
 
     while(field_width<5 || field_width>35){
+        if(field_height == 2137 || field_width == 2137) {cout<<"Zrob mu bardziej rzulta morde"<<endl;}
         cout<<"Illegal width parameter. Please choose width between 5 and 35"<<endl;
         cin>>field_width;
     }
     cout<<"HEIGHT: ";
     cin>>field_height;
     while(field_height<5 || field_height>35){
+        if(field_height == 2137 || field_width == 2137) {cout<<"Zrob mu bardziej rzulta morde"<<endl;}
         cout<<"Illegal height parameter. Please choose height between 5 and 35"<<endl;
         cin>>field_height;
     }
+    
     cout<<endl<<"You chose "<<field_width<<" by "<<field_height<<" playing field"<<endl;
     Sleep(3000);
     system("cls");
