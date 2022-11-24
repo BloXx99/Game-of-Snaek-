@@ -19,7 +19,7 @@ v0.1 ----->  First functional build. 20.11.2022
 - Fix border collision check to properly change snake's position once map border is reached.
 - It's possible to phase out of map while approaching upper or lower map border.  
  
-## MEDIUM MAP SIZE IS RECOMMENDED. GAME CAN GET BUGGY AT VERY SMALL MAPS. MAP DRAWER DOESN'T WORK WELL WITH VERY BIG MAPS AND SLOW GAME SPEEDS. 
+## MEDIUM MAP SIZE IS RECOMMENDED. GAME CAN GET BUGGY AT VERY SMALL MAPS.
 ## MAP DRAWER DOESN'T WORK VERY WELL WITH VERY BIG MAPS AND SLOW GAME SPEEDS. 
 
 ## Screenshots 
